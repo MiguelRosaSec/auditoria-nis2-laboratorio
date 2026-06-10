@@ -111,12 +111,12 @@ El proyecto no representa una certificación oficial ni una auditoría legal rea
 
 | Riesgo residual              | Estado    |
 | ---------------------------- | --------- |
-| HTTPS en WEB01               | Pendiente |
-| MFA real                     | Pendiente |
-| Modelo Tier completo en AD   | Pendiente |
-| Integración pfSense-Wazuh    | Pendiente |
-| Alertas avanzadas Wazuh      | Pendiente |
-| Servidor de backups dedicado | Pendiente |
+| HTTPS en WEB01               | Mejora futura |
+| MFA real                     | Fuera de alcandel del laboratorio |
+| Modelo Tier completo en AD   | Parcialmente iniciado |
+| Integración pfSense-Wazuh    | Pendiente por limitación técnica |
+| Alertas avanzadas Wazuh      | Mejora futura |
+| Servidor de backups dedicado | Mejora futura |
 
 ## 10. Autor
 
