@@ -1,0 +1,11 @@
+# Nmap 7.99 scan initiated Fri May 29 09:56:00 2026 as: /usr/lib/nmap/nmap -sU -Pn --top-ports 1000 -oA /home/auditor/auditoria-nis2/01_nmap/15_dc01_udp_topPorts 10.10.10.10
+Nmap scan report for 10.10.10.10
+Host is up (0.00082s latency).
+Not shown: 996 open|filtered udp ports (no-response)
+PORT    STATE SERVICE
+53/udp  open  domain
+88/udp  open  kerberos-sec
+123/udp open  ntp
+389/udp open  ldap
+
+# Nmap done at Fri May 29 09:56:26 2026 -- 1 IP address (1 host up) scanned in 26.33 seconds

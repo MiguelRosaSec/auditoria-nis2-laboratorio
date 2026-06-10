@@ -1,0 +1,28 @@
+● mariadb.service - MariaDB 10.6.23 database server
+     Loaded: loaded (/lib/systemd/system/mariadb.service; enabled; vendor preset: enabled)
+     Active: active (running) since Wed 2026-05-27 20:17:24 UTC; 11min ago
+       Docs: man:mariadbd(8)
+             https://mariadb.com/kb/en/library/systemd/
+    Process: 19347 ExecStartPre=/usr/bin/install -m 755 -o mysql -g root -d /var/run/mysqld (code=exited, status=0/SUCCESS)
+    Process: 19348 ExecStartPre=/bin/sh -c systemctl unset-environment _WSREP_START_POSITION (code=exited, status=0/SUCCESS)
+    Process: 19350 ExecStartPre=/bin/sh -c [ ! -e /usr/bin/galera_recovery ] && VAR= ||   VAR=`/usr/bin/galera_recovery`; [ $? -eq 0 ]   && systemctl set-environment _WSREP_START_POSITION=$VAR || exit 1 (code=exited, status=0/SUCCESS)
+    Process: 19390 ExecStartPost=/bin/sh -c systemctl unset-environment _WSREP_START_POSITION (code=exited, status=0/SUCCESS)
+    Process: 19392 ExecStartPost=/etc/mysql/debian-start (code=exited, status=0/SUCCESS)
+   Main PID: 19379 (mariadbd)
+     Status: "Taking your SQL requests now..."
+      Tasks: 9 (limit: 14341)
+     Memory: 62.2M
+        CPU: 673ms
+     CGroup: /system.slice/mariadb.service
+             └─19379 /usr/sbin/mariadbd
+
+may 27 20:17:24 db01 mariadbd[19379]: 2026-05-27 20:17:24 0 [Note] Plugin 'FEEDBACK' is disabled.
+may 27 20:17:24 db01 mariadbd[19379]: 2026-05-27 20:17:24 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+may 27 20:17:24 db01 mariadbd[19379]: 2026-05-27 20:17:24 0 [Warning] You need to use --log-bin to make --expire-logs-days or --binlog-expire-logs-seconds work.
+may 27 20:17:24 db01 mariadbd[19379]: 2026-05-27 20:17:24 0 [Note] Server socket created on IP: '0.0.0.0'.
+may 27 20:17:24 db01 mariadbd[19379]: 2026-05-27 20:17:24 0 [Note] InnoDB: Buffer pool(s) load completed at 260527 20:17:24
+may 27 20:17:24 db01 mariadbd[19379]: 2026-05-27 20:17:24 0 [Note] /usr/sbin/mariadbd: ready for connections.
+may 27 20:17:24 db01 mariadbd[19379]: Version: '10.6.23-MariaDB-0ubuntu0.22.04.1'  socket: '/run/mysqld/mysqld.sock'  port: 3306  Ubuntu 22.04
+may 27 20:17:24 db01 systemd[1]: Started MariaDB 10.6.23 database server.
+may 27 20:17:24 db01 /etc/mysql/debian-start[19405]: Checking for insecure root accounts.
+may 27 20:17:24 db01 /etc/mysql/debian-start[19409]: Triggering myisam-recover for all MyISAM tables and aria-recover for all Aria tables

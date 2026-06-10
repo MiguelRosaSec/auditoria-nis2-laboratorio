@@ -1,0 +1,4 @@
+﻿"DisplayName","Owner","CreationTime","ModificationTime","GpoStatus"
+"Default Domain Policy","ALMERIALOGITECH\Admins. del dominio","27/05/2026 20:10:05","03/06/2026 17:06:58","AllSettingsEnabled"
+"Default Domain Controllers Policy","ALMERIALOGITECH\Admins. del dominio","27/05/2026 20:10:05","27/05/2026 20:10:04","AllSettingsEnabled"
+"GPO_Hardening_Base_Dominio","ALMERIALOGITECH\Admins. del dominio","03/06/2026 17:33:25","03/06/2026 17:55:00","AllSettingsEnabled"

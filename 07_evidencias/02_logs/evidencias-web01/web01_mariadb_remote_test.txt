@@ -1,0 +1,7 @@
+Tables_in_almerialogitech
+clientes
+pedidos
+id	nombre	empresa	email	telefono	ciudad
+1	Cliente Demo 1	Supermercados Demo Sur	cliente1@example.local	600000001	Almería
+2	Cliente Demo 2	Hospital Demo Mediterráneo	cliente2@example.local	600000002	Roquetas de Mar
+3	Cliente Demo 3	Restaurante Demo Centro	cliente3@example.local	600000003	El Ejido

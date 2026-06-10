@@ -1,0 +1,4 @@
+# Nmap 7.99 scan initiated Fri May 29 09:35:22 2026 as: /usr/lib/nmap/nmap -sS -Pn -p- --min-rate=5000 -oA /home/auditor/auditoria-nis2/01_nmap/14_dc01_all_ports 10.10.10.10
+Host: 10.10.10.10 ()	Status: Up
+Host: 10.10.10.10 ()	Ports: 53/open/tcp//domain///, 88/open/tcp//kerberos-sec///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 464/open/tcp//kpasswd5///, 636/open/tcp//ldapssl///, 49664/open/tcp/////, 49668/open/tcp/////, 57752/open/tcp/////, 58332/open/tcp/////, 58343/open/tcp/////	Ignored State: filtered (65523)
+# Nmap done at Fri May 29 09:36:02 2026 -- 1 IP address (1 host up) scanned in 40.06 seconds

@@ -1,0 +1,34 @@
+# Secretos y credenciales
+*.key
+*.pem
+*.pfx
+*.p12
+*.env
+.env
+secrets/
+credentials/
+passwords/
+hashes/
+contraseñas
+
+# Dumps, backups y capturas sensibles
+*.sql
+*.sql.gz
+*.dump
+*.backup
+*.pcap
+*.pcapng
+*.evtx
+*.zip
+*.7z
+*.rar
+
+# Logs
+*.log
+
+# Git local y editores
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

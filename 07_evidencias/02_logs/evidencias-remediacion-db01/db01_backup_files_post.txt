@@ -1,0 +1,2 @@
+total 4,0K
+-rw-r--r-- 1 root root 1,5K jun  2 09:07 almerialogitech_2026-06-02_090704.sql.gz

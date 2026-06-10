@@ -1,0 +1,4 @@
+# Nmap 7.99 scan initiated Fri May 29 08:11:13 2026 as: /usr/lib/nmap/nmap --privileged -sVC -p 80,443 -oA /home/auditor/auditoria-nis2/01_nmap/web01_http_ini 10.10.20.10
+Host: 10.10.20.10 ()	Status: Up
+Host: 10.10.20.10 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.52 ((Ubuntu))/, 443/closed/tcp//https///
+# Nmap done at Fri May 29 08:11:20 2026 -- 1 IP address (1 host up) scanned in 7.27 seconds

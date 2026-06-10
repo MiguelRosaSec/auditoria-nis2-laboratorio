@@ -1,0 +1,23 @@
+# Nmap 7.99 scan initiated Fri May 29 09:31:16 2026 as: /usr/lib/nmap/nmap --privileged -sVC -Pn --min-rate=5000 -oA /home/auditor/auditoria-nis2/01_nmap/10_db01_services 10.10.10.30
+Nmap scan report for 10.10.10.30
+Host is up (0.00085s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.15 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 bd:e8:81:3c:69:e0:44:36:39:46:97:87:f6:b4:c9:e8 (ECDSA)
+|_  256 4a:bd:64:43:2c:f1:f2:22:16:ba:75:0f:5b:ef:61:d1 (ED25519)
+3306/tcp open  mysql   MariaDB 5.5.5-10.6.23
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.5.5-10.6.23-MariaDB-0ubuntu0.22.04.1
+|   Thread ID: 76
+|   Capabilities flags: 63486
+|   Some Capabilities: Support41Auth, Speaks41ProtocolOld, LongColumnFlag, DontAllowDatabaseTableColumn, InteractiveClient, IgnoreSpaceBeforeParenthesis, ConnectWithDatabase, FoundRows, Speaks41ProtocolNew, IgnoreSigpipes, SupportsLoadDataLocal, ODBCClient, SupportsTransactions, SupportsCompression, SupportsMultipleStatments, SupportsMultipleResults, SupportsAuthPlugins
+|   Status: Autocommit
+|   Salt: M4]X$Fu=j$n$`<J?<P^f
+|_  Auth Plugin Name: mysql_native_password
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri May 29 09:31:17 2026 -- 1 IP address (1 host up) scanned in 1.17 seconds

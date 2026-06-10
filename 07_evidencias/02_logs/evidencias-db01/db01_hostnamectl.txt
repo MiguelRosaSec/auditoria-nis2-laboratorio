@@ -1,0 +1,11 @@
+ Static hostname: db01
+       Icon name: computer-vm
+         Chassis: vm
+      Machine ID: 6ab7b1371ea541df961d5a406ac135c5
+         Boot ID: 45472f27ac5d489ea2a841c3fadcb6b5
+  Virtualization: vmware
+Operating System: Ubuntu 22.04.5 LTS
+          Kernel: Linux 5.15.0-179-generic
+    Architecture: x86-64
+ Hardware Vendor: VMware, Inc.
+  Hardware Model: VMware Virtual Platform

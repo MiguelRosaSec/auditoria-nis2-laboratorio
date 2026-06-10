@@ -1,0 +1,6 @@
+Server:		10.10.10.10
+Address:	10.10.10.10#53
+
+Name:	db01.almerialogitech.local
+Address: 10.10.10.30
+

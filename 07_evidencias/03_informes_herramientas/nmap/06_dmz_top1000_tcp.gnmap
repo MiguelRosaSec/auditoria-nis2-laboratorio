@@ -1,0 +1,6 @@
+# Nmap 7.99 scan initiated Fri May 29 09:20:35 2026 as: /usr/lib/nmap/nmap -sS -Pn --top-ports 1000 -oA /home/auditor/auditoria-nis2/01_nmap/06_dmz_top1000_tcp 10.10.20.1 10.10.20.10
+Host: 10.10.20.1 ()	Status: Up
+Host: 10.10.20.1 ()	Ports: 53/open/tcp//domain///, 80/open/tcp//http///	Ignored State: filtered (998)
+Host: 10.10.20.10 ()	Status: Up
+Host: 10.10.20.10 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///	Ignored State: closed (998)
+# Nmap done at Fri May 29 09:20:40 2026 -- 2 IP addresses (2 hosts up) scanned in 5.13 seconds

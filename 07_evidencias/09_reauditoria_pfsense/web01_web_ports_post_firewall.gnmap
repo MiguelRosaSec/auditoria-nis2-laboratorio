@@ -1,0 +1,4 @@
+# Nmap 7.99 scan initiated Tue Jun  2 21:24:53 2026 as: /usr/lib/nmap/nmap -sS -sV -Pn -p 80,443 -oA /home/auditor/auditoria-nis2/09_reauditoria_pfsense/web01_web_ports_post_firewall 10.10.20.10
+Host: 10.10.20.10 ()	Status: Up
+Host: 10.10.20.10 ()	Ports: 80/open/tcp//http//Apache httpd/, 443/closed/tcp//https///
+# Nmap done at Tue Jun  2 21:25:00 2026 -- 1 IP address (1 host up) scanned in 6.91 seconds

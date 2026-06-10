@@ -1,0 +1,4 @@
+# Nmap 7.99 scan initiated Fri May 29 08:10:02 2026 as: /usr/lib/nmap/nmap -sn -oA /home/auditor/auditoria-nis2/01_nmap/ping_audit_50 10.10.50.0/24
+Host: 10.10.50.1 ()	Status: Up
+Host: 10.10.50.10 ()	Status: Up
+# Nmap done at Fri May 29 08:10:05 2026 -- 256 IP addresses (2 hosts up) scanned in 2.93 seconds

@@ -1,0 +1,4 @@
+# Nmap 7.99 scan initiated Tue Jun  2 11:41:45 2026 as: /usr/lib/nmap/nmap -sS -Pn -p 22 -oA /home/auditor/auditoria-nis2/08_reauditoria_db01/db01_ssh_post 10.10.10.30
+Host: 10.10.10.30 ()	Status: Up
+Host: 10.10.10.30 ()	Ports: 22/filtered/tcp//ssh///
+# Nmap done at Tue Jun  2 11:41:47 2026 -- 1 IP address (1 host up) scanned in 2.58 seconds

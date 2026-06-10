@@ -1,0 +1,15 @@
+-- Configuracion de red
+
+nmcli connection show
+
+sudo nmcli connection modify "Wired connection 1" \
+  ipv4.addresses 10.10.50.10/24 \
+  ipv4.gateway 10.10.50.1 \
+  ipv4.dns "10.10.10.10 1.1.1.1" \
+  ipv4.dns-search "almerialogitech.local" \
+  ipv4.method manual
+
+sudo nmcli connection down "Wired connection 1"
+sudo nmcli connection up "Wired connection 1"
+
+

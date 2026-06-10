@@ -1,0 +1,28 @@
+# Nmap 7.99 scan initiated Fri May 29 09:25:32 2026 as: /usr/lib/nmap/nmap --privileged -sVC -Pn -oA /home/auditor/auditoria-nis2/01_nmap/08_fw01_pfsense_interfaces 10.10.10.1 10.10.20.1 10.10.50.1
+Nmap scan report for 10.10.10.1
+Host is up (0.00050s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  Unbound
+80/tcp open  http    nginx
+|_http-title: pfSense - Login
+
+Nmap scan report for 10.10.20.1
+Host is up (0.00044s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  Unbound
+80/tcp open  http    nginx
+|_http-title: pfSense - Login
+
+Nmap scan report for 10.10.50.1
+Host is up (0.00060s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  Unbound
+80/tcp open  http    nginx
+|_http-title: pfSense - Login
+MAC Address: 00:0C:29:E5:38:15 (VMware)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri May 29 09:26:17 2026 -- 3 IP addresses (3 hosts up) scanned in 44.98 seconds

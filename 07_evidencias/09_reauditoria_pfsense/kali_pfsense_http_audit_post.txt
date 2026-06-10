@@ -1,0 +1,12 @@
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0  0    162   0      0   0      0      0      0                              0  0    162   0      0   0      0      0      0                              0  0    162   0      0   0      0      0      0                              0
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Tue, 02 Jun 2026 19:30:42 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://10.10.50.1/
+X-Frame-Options: SAMEORIGIN
+

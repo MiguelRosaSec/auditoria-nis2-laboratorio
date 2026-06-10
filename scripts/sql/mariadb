@@ -1,0 +1,46 @@
+-- CREAR BASE DE DATOS Y TABLAS PARA ALMERIA LOGITECH
+
+CREATE DATABASE almerialogitech;
+
+USE almerialogitech;
+
+CREATE TABLE clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    empresa VARCHAR(100) NOT NULL,
+    email VARCHAR(150) NOT NULL,
+    telefono VARCHAR(30),
+    ciudad VARCHAR(100)
+);
+
+CREATE TABLE pedidos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    cliente_id INT,
+    referencia VARCHAR(50) NOT NULL,
+    estado VARCHAR(50) NOT NULL,
+    fecha_entrega DATE,
+    FOREIGN KEY (cliente_id) REFERENCES clientes(id)
+);
+
+INSERT INTO clientes (nombre, empresa, email, telefono, ciudad) VALUES
+('Cliente Demo 1', 'Supermercados Demo Sur', 'cliente1@example.local', '600000001', 'Almería'),
+('Cliente Demo 2', 'Hospital Demo Mediterráneo', 'cliente2@example.local', '600000002', 'Roquetas de Mar'),
+('Cliente Demo 3', 'Restaurante Demo Centro', 'cliente3@example.local', '600000003', 'El Ejido');
+
+INSERT INTO pedidos (cliente_id, referencia, estado, fecha_entrega) VALUES
+(1, 'PED-2026-0001', 'En tránsito', '2026-05-30'),
+(2, 'PED-2026-0002', 'Pendiente preparación', '2026-05-31'),
+(3, 'PED-2026-0003', 'Entregado', '2026-05-25');
+
+-- CREAR USUARIOS
+
+CREATE USER 'appuser'@'%' IDENTIFIED BY 'AppPassword123!';
+
+GRANT ALL PRIVILEGES ON almerialogitech.* TO 'appuser'@'%';
+
+FLUSH PRIVILEGES;
+
+
+-- COMPROBACION
+SHOW GRANTS FOR 'appuser'@'%';
+EXIT;

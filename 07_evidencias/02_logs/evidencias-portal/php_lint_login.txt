@@ -1,0 +1,1 @@
+No syntax errors detected in /var/www/html/login.php

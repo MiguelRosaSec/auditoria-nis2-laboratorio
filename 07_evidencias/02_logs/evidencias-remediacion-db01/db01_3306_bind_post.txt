@@ -1,0 +1,1 @@
+tcp   LISTEN 0      80       10.10.10.30:3306      0.0.0.0:*    users:(("mariadbd",pid=25001,fd=21)) uid:115 ino:244515 sk:8 cgroup:/system.slice/mariadb.service <->              

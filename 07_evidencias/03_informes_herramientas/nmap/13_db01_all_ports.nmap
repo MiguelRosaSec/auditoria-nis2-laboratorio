@@ -1,0 +1,9 @@
+# Nmap 7.99 scan initiated Fri May 29 09:35:03 2026 as: /usr/lib/nmap/nmap -sS -Pn -p- --min-rate=5000 -oA /home/auditor/auditoria-nis2/01_nmap/13_db01_all_ports 10.10.10.30
+Nmap scan report for 10.10.10.30
+Host is up (0.0022s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+3306/tcp open  mysql
+
+# Nmap done at Fri May 29 09:35:10 2026 -- 1 IP address (1 host up) scanned in 6.38 seconds

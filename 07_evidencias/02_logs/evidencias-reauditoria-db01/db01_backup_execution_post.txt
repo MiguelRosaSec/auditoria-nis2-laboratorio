@@ -1,0 +1,1 @@
+Backup generado: /opt/backups/mysql/almerialogitech_2026-06-02_094223.sql.gz

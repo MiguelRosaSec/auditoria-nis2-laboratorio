@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal Clientes - AlmeriaLogiTech</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<header>
+    <h1>AlmeriaLogiTech S.L.</h1>
+    <p>Portal de clientes - Laboratorio NIS2</p>
+</header>
+<nav>
+    <a href="/index.php">Inicio</a>
+    <a href="/login.php">Login</a>
+    <a href="/clientes.php">Clientes</a>
+    <a href="/pedidos.php">Pedidos</a>
+    <a href="/buscar.php">Buscar</a>
+    <a href="/contacto.php?msg=Bienvenido">Contacto</a>
+    <a href="/logout.php">Salir</a>
+</nav>
+<div class="container">
+
+<h2>Bienvenido al portal de clientes</h2>
+
+<p>Este portal permite consultar información simulada sobre clientes y pedidos logísticos.</p>
+
+<p><strong>Servidor:</strong> WEB01</p>
+<p><strong>Zona:</strong> DMZ</p>
+<p><strong>Proyecto:</strong> Auditoría técnica y de cumplimiento NIS2</p>
+
+<div class="alert">
+    Entorno de laboratorio con vulnerabilidades controladas para fines de auditoría interna.
+</div>
+
+</div>
+</body>
+</html>

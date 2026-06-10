@@ -1,0 +1,7 @@
+﻿"Name","SamAccountName","Enabled","PasswordLastSet","PasswordNeverExpires","LastLogonDate","DistinguishedName"
+"Laura Direccion","laura.direccion","True","27/05/2026 20:27:54","False",,"CN=Laura Direccion,OU=Direccion,OU=Usuarios,OU=AlmeriaLogiTech,DC=almerialogitech,DC=local"
+"Carlos IT","carlos.it","True","27/05/2026 20:27:54","False",,"CN=Carlos IT,OU=IT,OU=Usuarios,OU=AlmeriaLogiTech,DC=almerialogitech,DC=local"
+"Ana Operaciones","ana.operaciones","True","27/05/2026 20:27:54","False",,"CN=Ana Operaciones,OU=Operaciones,OU=Usuarios,OU=AlmeriaLogiTech,DC=almerialogitech,DC=local"
+"Miguel Finanzas","miguel.finanzas","True","27/05/2026 20:27:54","False",,"CN=Miguel Finanzas,OU=Finanzas,OU=Usuarios,OU=AlmeriaLogiTech,DC=almerialogitech,DC=local"
+"Marta RRHH","marta.rrhh","True","27/05/2026 20:27:54","False",,"CN=Marta RRHH,OU=RRHH,OU=Usuarios,OU=AlmeriaLogiTech,DC=almerialogitech,DC=local"
+"Pedro Clientes","pedro.clientes","True","27/05/2026 20:27:54","False",,"CN=Pedro Clientes,OU=AtencionClientes,OU=Usuarios,OU=AlmeriaLogiTech,DC=almerialogitech,DC=local"

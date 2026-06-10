@@ -1,0 +1,12 @@
+/var/www/html/pedidos.php
+/var/www/html/buscar.php
+/var/www/html/contacto.php
+/var/www/html/clientes.php
+/var/www/html/index.php
+/var/www/html/login.php
+/var/www/html/index_old.html
+/var/www/html/logout.php
+/var/www/html/includes/db.php
+/var/www/html/includes/header.php
+/var/www/html/includes/footer.php
+/var/www/html/assets/css/style.css

@@ -1,0 +1,7 @@
+﻿"Name","SamAccountName","GroupScope","GroupCategory","Description"
+"GG_AtencionClientes","GG_AtencionClientes","Global","Security",
+"GG_Direccion","GG_Direccion","Global","Security",
+"GG_Finanzas","GG_Finanzas","Global","Security",
+"GG_IT_Admins","GG_IT_Admins","Global","Security",
+"GG_Operaciones","GG_Operaciones","Global","Security",
+"GG_RRHH","GG_RRHH","Global","Security",

@@ -1,0 +1,1 @@
+153:    <directories check_all="yes" realtime="yes">/opt/backups/mysql</directories>

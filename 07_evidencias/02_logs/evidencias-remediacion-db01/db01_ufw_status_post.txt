@@ -1,0 +1,10 @@
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW IN    10.10.10.100               # SSH desde ADM01
+3306/tcp                   ALLOW IN    10.10.20.10                # MariaDB desde WEB01
+

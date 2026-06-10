@@ -1,0 +1,6 @@
+Tables_in_almerialogitech
+clientes
+pedidos
+usuarios
+total_clientes
+3

@@ -1,0 +1,4 @@
+# Nmap 7.99 scan initiated Tue Jun  2 21:38:50 2026 as: /usr/lib/nmap/nmap -sS -Pn -p 53,88,135,139,389,445,464,593,636,3268,3269 -oA /home/auditor/auditoria-nis2/09_reauditoria_pfsense/dc01_ad_ports_post_firewall 10.10.10.10
+Host: 10.10.10.10 ()	Status: Up
+Host: 10.10.10.10 ()	Ports: 53/open/tcp//domain///, 88/filtered/tcp//kerberos-sec///, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 389/filtered/tcp//ldap///, 445/filtered/tcp//microsoft-ds///, 464/filtered/tcp//kpasswd5///, 593/filtered/tcp//http-rpc-epmap///, 636/filtered/tcp//ldapssl///, 3268/filtered/tcp//globalcatLDAP///, 3269/filtered/tcp//globalcatLDAPssl///
+# Nmap done at Tue Jun  2 21:38:52 2026 -- 1 IP address (1 host up) scanned in 1.79 seconds

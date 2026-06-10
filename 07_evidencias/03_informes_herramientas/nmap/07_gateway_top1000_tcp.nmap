@@ -1,0 +1,10 @@
+# Nmap 7.99 scan initiated Fri May 29 09:23:37 2026 as: /usr/lib/nmap/nmap -sS -Pn --top-ports 1000 -oA /home/auditor/auditoria-nis2/01_nmap/07_gateway_top1000_tcp 10.10.50.1
+Nmap scan report for 10.10.50.1
+Host is up (0.00088s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+53/tcp open  domain
+80/tcp open  http
+MAC Address: 00:0C:29:E5:38:15 (VMware)
+
+# Nmap done at Fri May 29 09:23:43 2026 -- 1 IP address (1 host up) scanned in 5.52 seconds

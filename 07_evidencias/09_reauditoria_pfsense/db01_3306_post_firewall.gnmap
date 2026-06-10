@@ -1,0 +1,4 @@
+# Nmap 7.99 scan initiated Tue Jun  2 21:27:54 2026 as: /usr/lib/nmap/nmap -sS -Pn -p 3306 -oA /home/auditor/auditoria-nis2/09_reauditoria_pfsense/db01_3306_post_firewall 10.10.10.30
+Host: 10.10.10.30 ()	Status: Up
+Host: 10.10.10.30 ()	Ports: 3306/filtered/tcp//mysql///
+# Nmap done at Tue Jun  2 21:27:57 2026 -- 1 IP address (1 host up) scanned in 2.59 seconds

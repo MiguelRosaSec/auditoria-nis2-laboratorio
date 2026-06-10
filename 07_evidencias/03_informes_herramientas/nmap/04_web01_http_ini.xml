@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.99 scan initiated Fri May 29 08:11:13 2026 as: /usr/lib/nmap/nmap -&#45;privileged -sVC -p 80,443 -oA /home/auditor/auditoria-nis2/01_nmap/web01_http_ini 10.10.20.10 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -sVC -p 80,443 -oA /home/auditor/auditoria-nis2/01_nmap/web01_http_ini 10.10.20.10" start="1780035073" startstr="Fri May 29 08:11:13 2026" version="7.99" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="2" services="80,443"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.20.10" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1780035074" endtime="1780035080"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.20.10" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" product="Apache httpd" version="2.4.52" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.52</cpe></service><script id="http-cookie-flags" output="&#xa;  /: &#xa;    PHPSESSID: &#xa;      httponly flag not set"><table key="/">
+<table key="PHPSESSID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+</script><script id="http-server-header" output="Apache/2.4.52 (Ubuntu)"><elem>Apache/2.4.52 (Ubuntu)</elem>
+</script><script id="http-title" output="Portal Clientes - AlmeriaLogiTech"><elem key="title">Portal Clientes - AlmeriaLogiTech</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="closed" reason="reset" reason_ttl="63"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="1472" rttvar="3297" to="100000"/>
+</host>
+<runstats><finished time="1780035080" timestr="Fri May 29 08:11:20 2026" summary="Nmap done at Fri May 29 08:11:20 2026; 1 IP address (1 host up) scanned in 7.27 seconds" elapsed="7.27" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

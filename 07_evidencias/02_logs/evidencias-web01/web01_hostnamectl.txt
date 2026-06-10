@@ -1,0 +1,11 @@
+ Static hostname: web01
+       Icon name: computer-vm
+         Chassis: vm
+      Machine ID: 3a872a028c074bc6907d1e7360d16a56
+         Boot ID: f8c29da932f94606895704e589041cc8
+  Virtualization: vmware
+Operating System: Ubuntu 22.04.5 LTS
+          Kernel: Linux 5.15.0-179-generic
+    Architecture: x86-64
+ Hardware Vendor: VMware, Inc.
+  Hardware Model: VMware Virtual Platform

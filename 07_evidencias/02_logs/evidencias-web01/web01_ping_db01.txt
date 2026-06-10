@@ -1,0 +1,5 @@
+PING 10.10.10.30 (10.10.10.30) 56(84) bytes of data.
+
+--- 10.10.10.30 ping statistics ---
+4 packets transmitted, 0 received, 100% packet loss, time 3054ms
+

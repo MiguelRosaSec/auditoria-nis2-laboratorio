@@ -1,0 +1,7 @@
+# Nmap 7.99 scan initiated Fri May 29 08:10:02 2026 as: /usr/lib/nmap/nmap -sn -oA /home/auditor/auditoria-nis2/01_nmap/ping_audit_50 10.10.50.0/24
+Nmap scan report for 10.10.50.1
+Host is up (0.00045s latency).
+MAC Address: 00:0C:29:E5:38:15 (VMware)
+Nmap scan report for 10.10.50.10
+Host is up.
+# Nmap done at Fri May 29 08:10:05 2026 -- 256 IP addresses (2 hosts up) scanned in 2.93 seconds

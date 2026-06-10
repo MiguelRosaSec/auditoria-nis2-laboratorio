@@ -1,0 +1,8 @@
+# Nmap 7.99 scan initiated Fri May 29 09:16:29 2026 as: /usr/lib/nmap/nmap -sS -Pn --top-ports 1000 -oA /home/auditor/auditoria-nis2/01_nmap/05_lan_top1000_tcp 10.10.10.1 10.10.10.10 10.10.10.30
+Host: 10.10.10.1 ()	Status: Up
+Host: 10.10.10.1 ()	Ports: 53/open/tcp//domain///, 80/open/tcp//http///	Ignored State: filtered (998)
+Host: 10.10.10.10 ()	Status: Up
+Host: 10.10.10.10 ()	Ports: 53/open/tcp//domain///, 88/open/tcp//kerberos-sec///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 389/open/tcp//ldap///, 445/open/tcp//microsoft-ds///, 464/open/tcp//kpasswd5///, 593/open/tcp//http-rpc-epmap///, 636/open/tcp//ldapssl///, 3268/open/tcp//globalcatLDAP///, 3269/open/tcp//globalcatLDAPssl///	Ignored State: filtered (989)
+Host: 10.10.10.30 ()	Status: Up
+Host: 10.10.10.30 ()	Ports: 22/open/tcp//ssh///, 3306/open/tcp//mysql///	Ignored State: closed (998)
+# Nmap done at Fri May 29 09:16:35 2026 -- 3 IP addresses (3 hosts up) scanned in 6.69 seconds

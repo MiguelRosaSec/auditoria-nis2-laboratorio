@@ -1,0 +1,18 @@
+# Nmap 7.99 scan initiated Wed Jun  3 18:23:59 2026 as: /usr/lib/nmap/nmap -sS -Pn -p 53,88,135,139,389,445,464,593,636,3268,3269 -oA /home/auditor/auditoria-nis2/10_reauditoria_ad/dc01_ad_ports_reaudit 10.10.10.10
+Nmap scan report for 10.10.10.10
+Host is up (0.00066s latency).
+
+PORT     STATE    SERVICE
+53/tcp   open     domain
+88/tcp   filtered kerberos-sec
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+389/tcp  filtered ldap
+445/tcp  filtered microsoft-ds
+464/tcp  filtered kpasswd5
+593/tcp  filtered http-rpc-epmap
+636/tcp  filtered ldapssl
+3268/tcp filtered globalcatLDAP
+3269/tcp filtered globalcatLDAPssl
+
+# Nmap done at Wed Jun  3 18:24:01 2026 -- 1 IP address (1 host up) scanned in 1.78 seconds

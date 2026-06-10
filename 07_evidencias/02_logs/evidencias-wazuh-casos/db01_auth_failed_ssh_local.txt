@@ -1,0 +1,50 @@
+Jun  4 09:52:15 db01 sshd[2480]: Accepted password for sysadmin from 10.10.10.100 port 41572 ssh2
+Jun  4 09:52:15 db01 sshd[2480]: pam_unix(sshd:session): session opened for user sysadmin(uid=1000) by (uid=0)
+Jun  4 09:52:15 db01 systemd-logind[955]: New session 1 of user sysadmin.
+Jun  4 09:52:15 db01 systemd: pam_unix(systemd-user:session): session opened for user sysadmin(uid=1000) by (uid=0)
+Jun  4 10:07:50 db01 sudo: sysadmin : TTY=pts/0 ; PWD=/home/sysadmin ; USER=root ; COMMAND=/usr/bin/nano /var/ossec/etc/ossec.conf
+Jun  4 10:07:50 db01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sysadmin(uid=1000)
+Jun  4 10:09:41 db01 sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 10:13:26 db01 sudo: sysadmin : TTY=pts/0 ; PWD=/home/sysadmin ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-agent --no-pager
+Jun  4 10:13:26 db01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sysadmin(uid=1000)
+Jun  4 10:13:26 db01 sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 10:13:26 db01 sudo: sysadmin : TTY=pts/0 ; PWD=/home/sysadmin ; USER=root ; COMMAND=/usr/bin/tail -n 100 /var/ossec/logs/ossec.log
+Jun  4 10:13:26 db01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sysadmin(uid=1000)
+Jun  4 10:13:26 db01 sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 10:13:26 db01 sudo: sysadmin : TTY=pts/0 ; PWD=/home/sysadmin ; USER=root ; COMMAND=/usr/bin/grep -n /opt/backups/mysql /var/ossec/etc/ossec.conf
+Jun  4 10:13:26 db01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sysadmin(uid=1000)
+Jun  4 10:13:26 db01 sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 10:14:20 db01 sshd[2669]: Accepted password for sysadmin from 10.10.10.100 port 54664 ssh2
+Jun  4 10:14:20 db01 sshd[2669]: pam_unix(sshd:session): session opened for user sysadmin(uid=1000) by (uid=0)
+Jun  4 10:14:20 db01 systemd-logind[955]: New session 3 of user sysadmin.
+Jun  4 10:14:20 db01 sshd[2726]: Received disconnect from 10.10.10.100 port 54664:11: disconnected by user
+Jun  4 10:14:20 db01 sshd[2726]: Disconnected from user sysadmin 10.10.10.100 port 54664
+Jun  4 10:14:20 db01 sshd[2669]: pam_unix(sshd:session): session closed for user sysadmin
+Jun  4 10:14:20 db01 systemd-logind[955]: Session 3 logged out. Waiting for processes to exit.
+Jun  4 10:14:20 db01 systemd-logind[955]: Removed session 3.
+Jun  4 10:16:46 db01 sshd[2732]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.100  user=sysadmin
+Jun  4 10:16:48 db01 sshd[2732]: Failed password for sysadmin from 10.10.10.100 port 35466 ssh2
+Jun  4 10:16:50 db01 sshd[2732]: Connection closed by authenticating user sysadmin 10.10.10.100 port 35466 [preauth]
+Jun  4 10:17:01 db01 CRON[2734]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  4 10:17:01 db01 CRON[2734]: pam_unix(cron:session): session closed for user root
+Jun  4 11:17:01 db01 CRON[2854]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  4 11:17:01 db01 CRON[2854]: pam_unix(cron:session): session closed for user root
+Jun  4 12:17:01 db01 CRON[2972]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  4 12:17:01 db01 CRON[2972]: pam_unix(cron:session): session closed for user root
+Jun  4 13:17:01 db01 CRON[3095]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  4 13:17:01 db01 CRON[3095]: pam_unix(cron:session): session closed for user root
+Jun  4 14:17:01 db01 CRON[3219]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  4 14:17:01 db01 CRON[3219]: pam_unix(cron:session): session closed for user root
+Jun  4 17:17:12 db01 CRON[3420]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  4 17:17:12 db01 CRON[3420]: pam_unix(cron:session): session closed for user root
+Jun  4 18:17:01 db01 CRON[3573]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  4 18:17:01 db01 CRON[3573]: pam_unix(cron:session): session closed for user root
+Jun  8 10:17:01 db01 CRON[17695]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jun  8 10:17:01 db01 CRON[17695]: pam_unix(cron:session): session closed for user root
+Jun  8 10:24:59 db01 sshd[17710]: Invalid user user1 from 10.10.10.100 port 41750
+Jun  8 10:25:01 db01 sshd[17710]: pam_unix(sshd:auth): check pass; user unknown
+Jun  8 10:25:01 db01 sshd[17710]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.100 
+Jun  8 10:25:03 db01 sshd[17710]: Failed password for invalid user user1 from 10.10.10.100 port 41750 ssh2
+Jun  8 10:25:06 db01 sshd[17710]: Failed password for invalid user user1 from 10.10.10.100 port 41750 ssh2
+Jun  8 10:25:07 db01 sshd[17710]: Connection closed by invalid user user1 10.10.10.100 port 41750 [preauth]
+Jun  8 10:25:38 db01 sudo: sysadmin : TTY=pts/0 ; PWD=/home/sysadmin ; USER=root ; COMMAND=/usr/bin/tail -n 50 /var/log/auth.log

@@ -1,0 +1,65 @@
+/home/auditor/auditoria-nis2/01_nmap/04_web01_http_ini.nmap:80/tcp  open   http    Apache httpd 2.4.52 ((Ubuntu))
+/home/auditor/auditoria-nis2/01_nmap/05_lan_top1000_tcp.nmap:53/tcp open  domain
+/home/auditor/auditoria-nis2/01_nmap/05_lan_top1000_tcp.nmap:80/tcp open  http
+/home/auditor/auditoria-nis2/01_nmap/05_lan_top1000_tcp.nmap:53/tcp   open  domain
+/home/auditor/auditoria-nis2/01_nmap/05_lan_top1000_tcp.nmap:88/tcp   open  kerberos-sec
+/home/auditor/auditoria-nis2/01_nmap/05_lan_top1000_tcp.nmap:135/tcp  open  msrpc
+/home/auditor/auditoria-nis2/01_nmap/05_lan_top1000_tcp.nmap:139/tcp  open  netbios-ssn
+/home/auditor/auditoria-nis2/01_nmap/05_lan_top1000_tcp.nmap:389/tcp  open  ldap
+/home/auditor/auditoria-nis2/01_nmap/05_lan_top1000_tcp.nmap:445/tcp  open  microsoft-ds
+/home/auditor/auditoria-nis2/01_nmap/05_lan_top1000_tcp.nmap:464/tcp  open  kpasswd5
+/home/auditor/auditoria-nis2/01_nmap/05_lan_top1000_tcp.nmap:593/tcp  open  http-rpc-epmap
+/home/auditor/auditoria-nis2/01_nmap/05_lan_top1000_tcp.nmap:636/tcp  open  ldapssl
+/home/auditor/auditoria-nis2/01_nmap/05_lan_top1000_tcp.nmap:3268/tcp open  globalcatLDAP
+/home/auditor/auditoria-nis2/01_nmap/05_lan_top1000_tcp.nmap:3269/tcp open  globalcatLDAPssl
+/home/auditor/auditoria-nis2/01_nmap/05_lan_top1000_tcp.nmap:22/tcp   open  ssh
+/home/auditor/auditoria-nis2/01_nmap/05_lan_top1000_tcp.nmap:3306/tcp open  mysql
+/home/auditor/auditoria-nis2/01_nmap/06_dmz_top1000_tcp.nmap:53/tcp open  domain
+/home/auditor/auditoria-nis2/01_nmap/06_dmz_top1000_tcp.nmap:80/tcp open  http
+/home/auditor/auditoria-nis2/01_nmap/06_dmz_top1000_tcp.nmap:22/tcp open  ssh
+/home/auditor/auditoria-nis2/01_nmap/06_dmz_top1000_tcp.nmap:80/tcp open  http
+/home/auditor/auditoria-nis2/01_nmap/07_gateway_top1000_tcp.nmap:53/tcp open  domain
+/home/auditor/auditoria-nis2/01_nmap/07_gateway_top1000_tcp.nmap:80/tcp open  http
+/home/auditor/auditoria-nis2/01_nmap/08_fw01_pfsense_interfaces.nmap:53/tcp open  domain  Unbound
+/home/auditor/auditoria-nis2/01_nmap/08_fw01_pfsense_interfaces.nmap:80/tcp open  http    nginx
+/home/auditor/auditoria-nis2/01_nmap/08_fw01_pfsense_interfaces.nmap:53/tcp open  domain  Unbound
+/home/auditor/auditoria-nis2/01_nmap/08_fw01_pfsense_interfaces.nmap:80/tcp open  http    nginx
+/home/auditor/auditoria-nis2/01_nmap/08_fw01_pfsense_interfaces.nmap:53/tcp open  domain  Unbound
+/home/auditor/auditoria-nis2/01_nmap/08_fw01_pfsense_interfaces.nmap:80/tcp open  http    nginx
+/home/auditor/auditoria-nis2/01_nmap/09_dc01_services.nmap:53/tcp   open  domain        Simple DNS Plus
+/home/auditor/auditoria-nis2/01_nmap/09_dc01_services.nmap:88/tcp   open  kerberos-sec  Microsoft Windows Kerberos (server time: 2026-05-29 07:28:06Z)
+/home/auditor/auditoria-nis2/01_nmap/09_dc01_services.nmap:135/tcp  open  msrpc         Microsoft Windows RPC
+/home/auditor/auditoria-nis2/01_nmap/09_dc01_services.nmap:139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+/home/auditor/auditoria-nis2/01_nmap/09_dc01_services.nmap:389/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: almerialogitech.local, Site: Default-First-Site-Name)
+/home/auditor/auditoria-nis2/01_nmap/09_dc01_services.nmap:445/tcp  open  microsoft-ds?
+/home/auditor/auditoria-nis2/01_nmap/09_dc01_services.nmap:464/tcp  open  kpasswd5?
+/home/auditor/auditoria-nis2/01_nmap/09_dc01_services.nmap:593/tcp  open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+/home/auditor/auditoria-nis2/01_nmap/09_dc01_services.nmap:636/tcp  open  tcpwrapped
+/home/auditor/auditoria-nis2/01_nmap/09_dc01_services.nmap:3268/tcp open  ldap          Microsoft Windows Active Directory LDAP (Domain: almerialogitech.local, Site: Default-First-Site-Name)
+/home/auditor/auditoria-nis2/01_nmap/09_dc01_services.nmap:3269/tcp open  tcpwrapped
+/home/auditor/auditoria-nis2/01_nmap/10_db01_services.nmap:22/tcp   open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.15 (Ubuntu Linux; protocol 2.0)
+/home/auditor/auditoria-nis2/01_nmap/10_db01_services.nmap:3306/tcp open  mysql   MariaDB 5.5.5-10.6.23
+/home/auditor/auditoria-nis2/01_nmap/11_web01_services.nmap:22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.15 (Ubuntu Linux; protocol 2.0)
+/home/auditor/auditoria-nis2/01_nmap/11_web01_services.nmap:80/tcp open  http    Apache httpd 2.4.52 ((Ubuntu))
+/home/auditor/auditoria-nis2/01_nmap/13_db01_all_ports.nmap:22/tcp   open  ssh
+/home/auditor/auditoria-nis2/01_nmap/13_db01_all_ports.nmap:3306/tcp open  mysql
+/home/auditor/auditoria-nis2/01_nmap/14_dc01_all_ports.nmap:53/tcp    open  domain
+/home/auditor/auditoria-nis2/01_nmap/14_dc01_all_ports.nmap:88/tcp    open  kerberos-sec
+/home/auditor/auditoria-nis2/01_nmap/14_dc01_all_ports.nmap:135/tcp   open  msrpc
+/home/auditor/auditoria-nis2/01_nmap/14_dc01_all_ports.nmap:139/tcp   open  netbios-ssn
+/home/auditor/auditoria-nis2/01_nmap/14_dc01_all_ports.nmap:445/tcp   open  microsoft-ds
+/home/auditor/auditoria-nis2/01_nmap/14_dc01_all_ports.nmap:464/tcp   open  kpasswd5
+/home/auditor/auditoria-nis2/01_nmap/14_dc01_all_ports.nmap:636/tcp   open  ldapssl
+/home/auditor/auditoria-nis2/01_nmap/14_dc01_all_ports.nmap:49664/tcp open  unknown
+/home/auditor/auditoria-nis2/01_nmap/14_dc01_all_ports.nmap:49668/tcp open  unknown
+/home/auditor/auditoria-nis2/01_nmap/14_dc01_all_ports.nmap:57752/tcp open  unknown
+/home/auditor/auditoria-nis2/01_nmap/14_dc01_all_ports.nmap:58332/tcp open  unknown
+/home/auditor/auditoria-nis2/01_nmap/14_dc01_all_ports.nmap:58343/tcp open  unknown
+/home/auditor/auditoria-nis2/01_nmap/15_dc01_udp_topPorts.nmap:Not shown: 996 open|filtered udp ports (no-response)
+/home/auditor/auditoria-nis2/01_nmap/15_dc01_udp_topPorts.nmap:53/udp  open  domain
+/home/auditor/auditoria-nis2/01_nmap/15_dc01_udp_topPorts.nmap:88/udp  open  kerberos-sec
+/home/auditor/auditoria-nis2/01_nmap/15_dc01_udp_topPorts.nmap:123/udp open  ntp
+/home/auditor/auditoria-nis2/01_nmap/15_dc01_udp_topPorts.nmap:389/udp open  ldap
+/home/auditor/auditoria-nis2/01_nmap/16_pfsense_udp_topPorts.nmap:Not shown: 998 open|filtered udp ports (no-response)
+/home/auditor/auditoria-nis2/01_nmap/16_pfsense_udp_topPorts.nmap:53/udp  open  domain
+/home/auditor/auditoria-nis2/01_nmap/16_pfsense_udp_topPorts.nmap:123/udp open  ntp

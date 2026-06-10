@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.99 scan initiated Fri May 29 08:09:35 2026 as: /usr/lib/nmap/nmap -sn -oA /home/auditor/auditoria-nis2/01_nmap/ping_dmz_20 10.10.20.0/24 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -sn -oA /home/auditor/auditoria-nis2/01_nmap/ping_dmz_20 10.10.20.0/24" start="1780034975" startstr="Fri May 29 08:09:35 2026" version="7.99" xmloutputversion="1.05">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="echo-reply" reason_ttl="64"/>
+<address addr="10.10.20.1" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="984" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.20.10" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="2289" rttvar="2758" to="100000"/>
+</host>
+<runstats><finished time="1780034980" timestr="Fri May 29 08:09:40 2026" summary="Nmap done at Fri May 29 08:09:40 2026; 256 IP addresses (2 hosts up) scanned in 4.54 seconds" elapsed="4.54" exit="success"/><hosts up="2" down="254" total="256"/>
+</runstats>
+</nmaprun>

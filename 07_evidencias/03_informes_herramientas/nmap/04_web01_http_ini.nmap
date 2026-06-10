@@ -1,0 +1,16 @@
+# Nmap 7.99 scan initiated Fri May 29 08:11:13 2026 as: /usr/lib/nmap/nmap --privileged -sVC -p 80,443 -oA /home/auditor/auditoria-nis2/01_nmap/web01_http_ini 10.10.20.10
+Nmap scan report for 10.10.20.10
+Host is up (0.0015s latency).
+
+PORT    STATE  SERVICE VERSION
+80/tcp  open   http    Apache httpd 2.4.52 ((Ubuntu))
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+|_http-server-header: Apache/2.4.52 (Ubuntu)
+|_http-title: Portal Clientes - AlmeriaLogiTech
+443/tcp closed https
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri May 29 08:11:20 2026 -- 1 IP address (1 host up) scanned in 7.27 seconds

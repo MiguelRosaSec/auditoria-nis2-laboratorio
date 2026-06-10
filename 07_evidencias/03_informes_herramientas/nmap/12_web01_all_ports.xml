@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.99 scan initiated Fri May 29 09:34:28 2026 as: /usr/lib/nmap/nmap -sS -Pn -p- -&#45;min-rate=5000 -oA /home/auditor/auditoria-nis2/01_nmap/12_web01_all_ports 10.10.10.30 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -sS -Pn -p- -&#45;min-rate=5000 -oA /home/auditor/auditoria-nis2/01_nmap/12_web01_all_ports 10.10.10.30" start="1780040068" startstr="Fri May 29 09:34:28 2026" version="7.99" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>

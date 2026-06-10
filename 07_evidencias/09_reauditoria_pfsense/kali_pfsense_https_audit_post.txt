@@ -1,0 +1,16 @@
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0  0      0   0      0   0      0      0      0                              0  0      0   0      0   0      0      0      0                              0  0      0   0      0   0      0      0      0                              0
+HTTP/2 200 
+server: nginx
+date: Tue, 02 Jun 2026 19:30:42 GMT
+content-type: text/html; charset=UTF-8
+x-frame-options: SAMEORIGIN
+last-modified: Tue, 02 Jun 2026 19:30:42 GMT
+set-cookie: PHPSESSID=43b9adac943c4395743ea5315df74b4f; path=/; secure; HttpOnly; SameSite=Strict
+expires: Thu, 19 Nov 1981 08:52:00 GMT
+cache-control: no-store, no-cache, must-revalidate
+pragma: no-cache
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+

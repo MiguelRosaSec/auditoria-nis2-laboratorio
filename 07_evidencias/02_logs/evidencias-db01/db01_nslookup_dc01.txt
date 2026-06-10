@@ -1,0 +1,6 @@
+Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+Name:	dc01.almerialogitech.local
+Address: 10.10.10.10
+

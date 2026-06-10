@@ -1,0 +1,11 @@
+# Nmap 7.99 scan initiated Tue Jun  2 20:53:50 2026 as: /usr/lib/nmap/nmap -sS -Pn -p 88,135,389,445 -oA /home/auditor/auditoria-nis2/09_reauditoria_pfsense/dc01_ad_ports_after_pfsense 10.10.10.10
+Nmap scan report for 10.10.10.10
+Host is up (0.0016s latency).
+
+PORT    STATE SERVICE
+88/tcp  open  kerberos-sec
+135/tcp open  msrpc
+389/tcp open  ldap
+445/tcp open  microsoft-ds
+
+# Nmap done at Tue Jun  2 20:53:51 2026 -- 1 IP address (1 host up) scanned in 0.58 seconds

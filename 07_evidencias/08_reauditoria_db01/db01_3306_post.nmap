@@ -1,0 +1,8 @@
+# Nmap 7.99 scan initiated Tue Jun  2 11:41:30 2026 as: /usr/lib/nmap/nmap -sS -Pn -p 3306 -oA /home/auditor/auditoria-nis2/08_reauditoria_db01/db01_3306_post 10.10.10.30
+Nmap scan report for 10.10.10.30
+Host is up.
+
+PORT     STATE    SERVICE
+3306/tcp filtered mysql
+
+# Nmap done at Tue Jun  2 11:41:33 2026 -- 1 IP address (1 host up) scanned in 2.58 seconds

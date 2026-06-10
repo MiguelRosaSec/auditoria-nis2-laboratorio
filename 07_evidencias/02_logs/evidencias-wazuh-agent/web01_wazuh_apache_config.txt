@@ -1,0 +1,4 @@
+194:    <location>/var/log/apache2/error.log</location>
+199:    <location>/var/log/apache2/access.log</location>
+214:    <location>/var/log/apache2/access.log</location>
+219:    <location>/var/log/apache2/error.log</location>

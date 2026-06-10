@@ -1,0 +1,2 @@
+default via 10.10.50.1 dev eth0 proto static metric 100 
+10.10.50.0/24 dev eth0 proto kernel scope link src 10.10.50.10 metric 100 

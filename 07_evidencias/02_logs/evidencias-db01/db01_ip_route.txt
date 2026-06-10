@@ -1,0 +1,2 @@
+default via 10.10.10.1 dev ens33 proto static 
+10.10.10.0/24 dev ens33 proto kernel scope link src 10.10.10.30 

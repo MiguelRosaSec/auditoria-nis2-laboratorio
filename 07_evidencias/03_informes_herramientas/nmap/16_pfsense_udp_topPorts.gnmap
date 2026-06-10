@@ -1,0 +1,4 @@
+# Nmap 7.99 scan initiated Fri May 29 10:14:38 2026 as: /usr/lib/nmap/nmap -sU -Pn --top-ports 1000 -oA /home/auditor/auditoria-nis2/01_nmap/16_pfsense_udp_topPorts 10.10.10.1
+Host: 10.10.10.1 ()	Status: Up
+Host: 10.10.10.1 ()	Ports: 53/open/udp//domain///, 123/open/udp//ntp///	Ignored State: open|filtered (998)
+# Nmap done at Fri May 29 10:15:34 2026 -- 1 IP address (1 host up) scanned in 56.05 seconds

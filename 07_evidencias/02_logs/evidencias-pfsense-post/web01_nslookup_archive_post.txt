@@ -1,0 +1,14 @@
+Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+Non-authoritative answer:
+archive.ubuntu.com	canonical name = archive.ubuntu.com.cdn.cloudflare.net.
+Name:	archive.ubuntu.com.cdn.cloudflare.net
+Address: 172.66.152.176
+Name:	archive.ubuntu.com.cdn.cloudflare.net
+Address: 104.20.28.246
+Name:	archive.ubuntu.com.cdn.cloudflare.net
+Address: 2606:4700:10::6814:1cf6
+Name:	archive.ubuntu.com.cdn.cloudflare.net
+Address: 2606:4700:10::ac42:98b0
+

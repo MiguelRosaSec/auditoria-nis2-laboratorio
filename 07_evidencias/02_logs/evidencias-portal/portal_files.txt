@@ -1,0 +1,13 @@
+total 48
+drwxr-xr-x 4 www-data www-data 4096 may 28 11:32 .
+drwxr-xr-x 3 root     root     4096 may 28 10:33 ..
+drwxr-xr-x 3 www-data www-data 4096 may 28 11:12 assets
+-rw-r--r-- 1 www-data www-data 1216 may 28 11:26 buscar.php
+-rw-r--r-- 1 www-data www-data  995 may 28 11:24 clientes.php
+-rw-r--r-- 1 www-data www-data  480 may 28 11:27 contacto.php
+drwxr-xr-x 2 www-data www-data 4096 may 28 11:21 includes
+-rw-r--r-- 1 www-data www-data  300 may 28 10:40 index_old.html
+-rw-r--r-- 1 www-data www-data  496 may 28 11:22 index.php
+-rw-r--r-- 1 www-data www-data 1279 may 28 11:24 login.php
+-rw-r--r-- 1 www-data www-data   82 may 28 11:28 logout.php
+-rw-r--r-- 1 www-data www-data  956 may 28 11:25 pedidos.php

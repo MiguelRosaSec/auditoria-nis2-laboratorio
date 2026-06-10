@@ -1,0 +1,19 @@
+# Nmap 7.99 scan initiated Fri May 29 09:35:22 2026 as: /usr/lib/nmap/nmap -sS -Pn -p- --min-rate=5000 -oA /home/auditor/auditoria-nis2/01_nmap/14_dc01_all_ports 10.10.10.10
+Nmap scan report for 10.10.10.10
+Host is up (0.00088s latency).
+Not shown: 65523 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+53/tcp    open  domain
+88/tcp    open  kerberos-sec
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+464/tcp   open  kpasswd5
+636/tcp   open  ldapssl
+49664/tcp open  unknown
+49668/tcp open  unknown
+57752/tcp open  unknown
+58332/tcp open  unknown
+58343/tcp open  unknown
+
+# Nmap done at Fri May 29 09:36:02 2026 -- 1 IP address (1 host up) scanned in 40.06 seconds

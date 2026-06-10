@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal Clientes - AlmeriaLogiTech</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<header>
+    <h1>AlmeriaLogiTech S.L.</h1>
+    <p>Portal de clientes - Laboratorio NIS2</p>
+</header>
+<nav>
+    <a href="/index.php">Inicio</a>
+    <a href="/login.php">Login</a>
+    <a href="/clientes.php">Clientes</a>
+    <a href="/pedidos.php">Pedidos</a>
+    <a href="/buscar.php">Buscar</a>
+    <a href="/contacto.php?msg=Bienvenido">Contacto</a>
+    <a href="/logout.php">Salir</a>
+</nav>
+<div class="container">
+
+<h2>Acceso al portal</h2>
+
+
+<form method="POST" action="login.php">
+    <label>Usuario:</label><br>
+    <input type="text" name="usuario"><br>
+
+    <label>Contraseña:</label><br>
+    <input type="password" name="password"><br>
+
+    <button type="submit">Entrar</button>
+</form>
+
+<p>Usuarios de prueba:</p>
+<ul>
+    <li>admin / admin123</li>
+    <li>cliente / cliente123</li>
+    <li>operador / operador123</li>
+</ul>
+
+</div>
+</body>
+</html>

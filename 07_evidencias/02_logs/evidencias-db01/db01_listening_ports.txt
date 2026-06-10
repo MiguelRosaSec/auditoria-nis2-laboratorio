@@ -1,0 +1,8 @@
+Netid State  Recv-Q Send-Q Local Address:Port Peer Address:PortProcess                                                                                                             
+udp   UNCONN 0      0          127.0.0.1:323       0.0.0.0:*    users:(("chronyd",pid=18446,fd=5)) ino:60824 sk:1 cgroup:/system.slice/chrony.service <->                          
+udp   UNCONN 0      0      127.0.0.53%lo:53        0.0.0.0:*    users:(("systemd-resolve",pid=5074,fd=13)) uid:102 ino:45832 sk:2 cgroup:/system.slice/systemd-resolved.service <->
+udp   UNCONN 0      0              [::1]:323          [::]:*    users:(("chronyd",pid=18446,fd=6)) ino:60825 sk:3 cgroup:/system.slice/chrony.service v6only:1 <->                 
+tcp   LISTEN 0      80           0.0.0.0:3306      0.0.0.0:*    users:(("mariadbd",pid=19379,fd=20)) uid:115 ino:65840 sk:4 cgroup:/system.slice/mariadb.service <->               
+tcp   LISTEN 0      128          0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=17494,fd=3)) ino:56044 sk:5 cgroup:/system.slice/ssh.service <->                                
+tcp   LISTEN 0      4096   127.0.0.53%lo:53        0.0.0.0:*    users:(("systemd-resolve",pid=5074,fd=14)) uid:102 ino:45833 sk:6 cgroup:/system.slice/systemd-resolved.service <->
+tcp   LISTEN 0      128             [::]:22           [::]:*    users:(("sshd",pid=17494,fd=4)) ino:56046 sk:7 cgroup:/system.slice/ssh.service v6only:1 <->                       

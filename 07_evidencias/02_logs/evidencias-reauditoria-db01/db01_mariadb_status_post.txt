@@ -1,0 +1,28 @@
+● mariadb.service - MariaDB 10.6.23 database server
+     Loaded: loaded (/lib/systemd/system/mariadb.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2026-06-02 08:49:56 UTC; 46min ago
+       Docs: man:mariadbd(8)
+             https://mariadb.com/kb/en/library/systemd/
+    Process: 24968 ExecStartPre=/usr/bin/install -m 755 -o mysql -g root -d /var/run/mysqld (code=exited, status=0/SUCCESS)
+    Process: 24970 ExecStartPre=/bin/sh -c systemctl unset-environment _WSREP_START_POSITION (code=exited, status=0/SUCCESS)
+    Process: 24972 ExecStartPre=/bin/sh -c [ ! -e /usr/bin/galera_recovery ] && VAR= ||   VAR=`/usr/bin/galera_recovery`; [ $? -eq 0 ]   && systemctl set-environment _WSREP_START_POSITION=$VAR || exit 1 (code=exited, status=0/SUCCESS)
+    Process: 25013 ExecStartPost=/bin/sh -c systemctl unset-environment _WSREP_START_POSITION (code=exited, status=0/SUCCESS)
+    Process: 25015 ExecStartPost=/etc/mysql/debian-start (code=exited, status=0/SUCCESS)
+   Main PID: 25001 (mariadbd)
+     Status: "Taking your SQL requests now..."
+      Tasks: 8 (limit: 14341)
+     Memory: 68.3M
+        CPU: 1.240s
+     CGroup: /system.slice/mariadb.service
+             └─25001 /usr/sbin/mariadbd
+
+jun 02 08:49:56 db01 systemd[1]: Started MariaDB 10.6.23 database server.
+jun 02 08:49:56 db01 /etc/mysql/debian-start[25017]: Upgrading MySQL tables if necessary.
+jun 02 08:49:56 db01 /etc/mysql/debian-start[25020]: Looking for 'mariadb' as: /usr/bin/mariadb
+jun 02 08:49:56 db01 /etc/mysql/debian-start[25020]: Looking for 'mariadb-check' as: /usr/bin/mariadb-check
+jun 02 08:49:56 db01 /etc/mysql/debian-start[25020]: This installation of MariaDB is already upgraded to 10.6.23-MariaDB.
+jun 02 08:49:56 db01 /etc/mysql/debian-start[25020]: There is no need to run mysql_upgrade again.
+jun 02 08:49:56 db01 /etc/mysql/debian-start[25020]: You can use --force if you still want to run mysql_upgrade
+jun 02 08:49:56 db01 /etc/mysql/debian-start[25032]: Triggering myisam-recover for all MyISAM tables and aria-recover for all Aria tables
+jun 02 08:59:45 db01 mariadbd[25001]: 2026-06-02  8:59:45 31 [Warning] IP address '10.10.20.10' could not be resolved: Name or service not known
+jun 02 09:22:23 db01 mariadbd[25001]: 2026-06-02  9:22:23 51 [Warning] Aborted connection 51 to db: 'unconnected' user: 'unauthenticated' host: 'db01.almerialogitech.local' (This connection closed normally without authentication)

@@ -1,0 +1,3 @@
+http://10.10.20.10/login.php (POST)  # /usr/bin/sqlmap -u http://10.10.20.10/login.php --data=usuario=admin&password=admin123 -p usuario,password --batch --level=1 --risk=1 --output-dir=/home/auditor/auditoria-nis2/02_web/web01/resultados/sqlmap_login
+
+usuario=admin&password=admin123

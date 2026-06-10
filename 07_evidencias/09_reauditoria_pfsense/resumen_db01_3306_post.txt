@@ -1,0 +1,4 @@
+/home/auditor/auditoria-nis2/09_reauditoria_pfsense/db01_3306_post_firewall.nmap:# Nmap 7.99 scan initiated Tue Jun  2 21:27:54 2026 as: /usr/lib/nmap/nmap -sS -Pn -p 3306 -oA /home/auditor/auditoria-nis2/09_reauditoria_pfsense/db01_3306_post_firewall 10.10.10.30
+/home/auditor/auditoria-nis2/09_reauditoria_pfsense/db01_3306_post_firewall.nmap:3306/tcp filtered mysql
+/home/auditor/auditoria-nis2/09_reauditoria_pfsense/db01_ports_after_pfsense.nmap:# Nmap 7.99 scan initiated Tue Jun  2 20:53:47 2026 as: /usr/lib/nmap/nmap -sS -Pn -p 3306,22 -oA /home/auditor/auditoria-nis2/09_reauditoria_pfsense/db01_ports_after_pfsense 10.10.10.30
+/home/auditor/auditoria-nis2/09_reauditoria_pfsense/db01_ports_after_pfsense.nmap:3306/tcp filtered mysql

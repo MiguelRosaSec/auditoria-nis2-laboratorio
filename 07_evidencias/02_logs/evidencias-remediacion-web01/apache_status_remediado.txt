@@ -1,0 +1,20 @@
+● apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+     Active: active (running) since Mon 2026-06-01 16:17:21 UTC; 24min ago
+       Docs: https://httpd.apache.org/docs/2.4/
+    Process: 39394 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+   Main PID: 39399 (apache2)
+      Tasks: 7 (limit: 2175)
+     Memory: 13.9M
+        CPU: 539ms
+     CGroup: /system.slice/apache2.service
+             ├─39399 /usr/sbin/apache2 -k start
+             ├─39400 /usr/sbin/apache2 -k start
+             ├─39401 /usr/sbin/apache2 -k start
+             ├─39402 /usr/sbin/apache2 -k start
+             ├─39403 /usr/sbin/apache2 -k start
+             ├─39404 /usr/sbin/apache2 -k start
+             └─39405 /usr/sbin/apache2 -k start
+
+jun 01 16:17:21 web01 systemd[1]: Starting The Apache HTTP Server...
+jun 01 16:17:21 web01 systemd[1]: Started The Apache HTTP Server.

@@ -1,0 +1,4 @@
+# Nmap 7.99 scan initiated Fri May 29 09:35:03 2026 as: /usr/lib/nmap/nmap -sS -Pn -p- --min-rate=5000 -oA /home/auditor/auditoria-nis2/01_nmap/13_db01_all_ports 10.10.10.30
+Host: 10.10.10.30 ()	Status: Up
+Host: 10.10.10.30 ()	Ports: 22/open/tcp//ssh///, 3306/open/tcp//mysql///	Ignored State: closed (65533)
+# Nmap done at Fri May 29 09:35:10 2026 -- 1 IP address (1 host up) scanned in 6.38 seconds

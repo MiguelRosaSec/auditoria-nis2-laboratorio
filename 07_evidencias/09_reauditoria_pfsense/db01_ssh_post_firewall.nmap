@@ -1,0 +1,8 @@
+# Nmap 7.99 scan initiated Tue Jun  2 21:28:22 2026 as: /usr/lib/nmap/nmap -sS -Pn -p 22 -oA /home/auditor/auditoria-nis2/09_reauditoria_pfsense/db01_ssh_post_firewall 10.10.10.30
+Nmap scan report for 10.10.10.30
+Host is up.
+
+PORT   STATE    SERVICE
+22/tcp filtered ssh
+
+# Nmap done at Tue Jun  2 21:28:24 2026 -- 1 IP address (1 host up) scanned in 2.57 seconds

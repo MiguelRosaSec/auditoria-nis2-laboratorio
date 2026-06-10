@@ -1,0 +1,4 @@
+﻿"Name","SamAccountName","GroupScope","GroupCategory","Description"
+"GG_AD_Admins_Tier0","GG_AD_Admins_Tier0","Global","Security","Administradores Tier 0 de Active Directory"
+"GG_Server_Admins_Tier1","GG_Server_Admins_Tier1","Global","Security","Administradores de servidores Tier 1"
+"GG_Workstation_Admins_Tier2","GG_Workstation_Admins_Tier2","Global","Security","Administradores de estaciones Tier 2"

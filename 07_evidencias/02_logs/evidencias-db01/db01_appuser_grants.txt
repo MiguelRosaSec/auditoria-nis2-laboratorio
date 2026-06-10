@@ -1,0 +1,3 @@
+Grants for appuser@%
+GRANT USAGE ON *.* TO `appuser`@`%` IDENTIFIED BY PASSWORD '*BA8509D83EBFDF585B0F6BCCF9E2820BF3583344'
+GRANT ALL PRIVILEGES ON `almerialogitech`.* TO `appuser`@`%`

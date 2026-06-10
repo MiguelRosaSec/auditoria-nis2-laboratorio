@@ -1,0 +1,57 @@
+HTTP/1.1 200 OK
+Date: Mon, 01 Jun 2026 16:45:26 GMT
+Server: Apache
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: geolocation=(), microphone=(), camera=()
+Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'self'; frame-ancestors 'self';
+Set-Cookie: PHPSESSID=rd06fqtndp33aauhutuvij5e5t; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1038
+Content-Type: text/html; charset=UTF-8
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal Clientes - AlmeriaLogiTech</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<header>
+    <h1>AlmeriaLogiTech S.L.</h1>
+    <p>Portal de clientes - Laboratorio NIS2</p>
+</header>
+<nav>
+    <a href="/index.php">Inicio</a>
+    <a href="/login.php">Login</a>
+    <a href="/clientes.php">Clientes</a>
+    <a href="/pedidos.php">Pedidos</a>
+    <a href="/buscar.php">Buscar</a>
+    <a href="/contacto.php?msg=Bienvenido">Contacto</a>
+    <a href="/logout.php">Salir</a>
+</nav>
+<div class="container">
+
+<h2>Acceso al portal</h2>
+
+    <div class="alert">Credenciales incorrectas</div>
+
+<form method="POST" action="login.php" autocomplete="off">
+    <label>Usuario:</label><br>
+    <input type="text" name="usuario" required maxlength="50"><br>
+
+    <label>Contraseña:</label><br>
+    <input type="password" name="password" required maxlength="100"><br>
+
+    <button type="submit">Entrar</button>
+</form>
+
+</div>
+</body>
+</html>
